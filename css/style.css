@@ -34,7 +34,9 @@ header{
     padding: 28px 24px 28px 20px;
     height: 81px;
     gap: 100px;
-    position: fixed;
+    position: sticky;
+    top: 0;
+    left: 0;
     width: 100%;
 }
 .header-left{
@@ -42,10 +44,11 @@ header{
     align-items: center;
     gap: 40px;
 }
-nav{
+header nav ul{
     display: flex;
     gap: 40px;
     align-items: center;
+    list-style-type: none;
 }
 a{
     text-decoration: none;
@@ -59,4 +62,18 @@ button{
     padding: 5px 15px;
     cursor: pointer;
 }
-
+.hero-section{
+    background-color: #b4d0e6;
+    height: 400px;
+}
+.hero{
+    width: 1200px;
+    margin: auto;
+    padding-top: ;
+}
+h1{ 
+    font-size: 60px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 180px;
+}
